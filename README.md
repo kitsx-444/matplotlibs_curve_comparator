@@ -22,7 +22,7 @@ This helps traders visualize their accounts equity curve so they can make inform
 Before all the assets shared one starting number, when it was plotted the graph was a visual mess. 
 
 ## The fix:
-To fix that bug there are multiple starting balances for each asset. because without those variables the starting balances of each asset would be at the last balance iteration of the running total from the assets loop before it. 
+To fix that bug there are multiple starting balances for each asset. Without those variables, the starting balances of each asset would be at the last balance iteration of the running total from the loop before. 
 
 ## How to run:
 1. Install matplotlibs. `pip install matplotlib`
